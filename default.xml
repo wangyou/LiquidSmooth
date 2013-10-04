@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="aosp"
+  <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
-  <remote name="cm"
+  <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
 
-  <remote name="ln"
+  <remote  name="ln"
            fetch="git://android.git.linaro.org/" />
 
-  <remote name="ls"
+  <remote  name="ls"
            fetch="git://github.com/LiquidSmooth/" />
 
-  <remote name="sm"
+  <remote  name="sm"
            fetch="git://github.com/SaberMod/" />
            
-  <remote name="gh"
+  <remote  name="gh"
            fetch="git://github.com/" />
 
-  <remote name="sr"
+  <remote  name="sr"
            fetch="git://github.com/SlimRoms/" />
 
-  <remote name="tm"
+  <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
 
   <default revision="refs/tags/android-4.3_r3.1"
@@ -80,6 +80,8 @@
   <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="ls" revision="jb3" />
   <project path="device/samsung/jfltexx" name="android_device_samsung_jfltexx" remote="ls" revision="jb3" />
   <project path="device/samsung/l900" name="android_device_samsung_l900" remote="ls" revision="jb3" />
+  <project path="device/samsung/manta" name="android_device_samsung_manta" remote="ls" revision="jb3" />
+  <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="ls" revision="jb3" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="ls" revision="jb3" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="cm" revision="cm-10.2" />
